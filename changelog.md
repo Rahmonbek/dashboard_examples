@@ -1,122 +1,61 @@
-# Changelog
+### Changelog
 
-## [1.2.9] 
+All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-- Fixed Sidebar Width
+#### [3.2.0](https://github.com/coreui/coreui-free-react-admin-template/compare/3.1.1...3.2.0)
 
-## [1.2.8]
+> 14 December 2020
 
-- Updated Pop-up Alert im Dashboard 
-- Updated responsive positioning Tables 
-###Updated follow dependencies and DevDependencies {
-        @amcharts/amcharts4": "^4.9.28" ->"^4.10.18",
-        "@amcharts/amcharts4-geodata": "^4.1.16" -> "^4.1.20",
-        "animate.css": "4.1.0" -> "4.1.1",
-        "apexcharts": "^3.19.3" -> "^3.26.1",
-        "bootstrap": "4.5.0" -> "4.6.0",
-        "classnames": "^2.2.6" -> "^2.3.1", 
-        "echarts": "^4.8.0" -> "^4.9.0",
-        "highcharts": "^8.1.2" -> "8.2.2", 
-        "moment": "^2.27.0" -> "2.29.0", 
-        "react": "^16.13.1" -> "16.14.0", 
-        "react-animate-height": "^2.0.21" ->  "^2.0.23", 
-        "react-apexcharts": "^1.3.7" -> "^1.3.9", 
-        "react-dev-utils": "^6.0.5" -> "^6.1.1", 
-        "react-dom": "^16.13.1" -> "^16.14.0", 
-        "react-redux": "^5.0.7" -> "^5.1.2", 
-        "react-toastify": "^7.0.3" -> "^7.0.4", 
-        "reactstrap": "8.5.1" -> "8.9.0", 
-        "redux": "^4.0.1" -> "^4.1.0", 
-        "tabler-icons": "^1.10.0" ->  "^1.35.0"
+- fix(BrandButtons): minor temp fixes with stylings [`f0c0585`](https://github.com/coreui/coreui-free-react-admin-template/commit/f0c05858329430c9487bdcfcf36d0aa98f60776d)
+- refactor: polyfills cleanup [`9522ade`](https://github.com/coreui/coreui-free-react-admin-template/commit/9522ade1f1eb2c5a26d5208fe6e44be803123bd2)
+- test: refactor, import temp update [`f3f91c5`](https://github.com/coreui/coreui-free-react-admin-template/commit/f3f91c5d721754a2dac26143f312415c94c7ed68)
+- chore: React 17 and dependencies update [`f6a710f`](https://github.com/coreui/coreui-free-react-admin-template/commit/f6a710ffd6996c9b6b026b8eebed6ff390757fe1)
+- fix(_nav): no anonymous default export [`ed83c9a`](https://github.com/coreui/coreui-free-react-admin-template/commit/ed83c9a3d4199b8c6566a6e01396cdcbca80cf42)
 
-    "devDependencies":
-        "@babel/core": "7.10.4" -> "7.14.0", 
-        "@babel/plugin-proposal-class-properties": "7.10.4" -> "7.13.0", 
-        "@babel/plugin-proposal-optional-chaining": "^7.10.4" -> "^7.13.2", 
-        "@svgr/webpack": "5.4.0" -> "5.5.0", 
-        "babel-eslint": "10.0.1" -> "10.1.0", 
-        "babel-jest": "24.8.0" -> "24.9.0", 
-        "babel-loader": "8.0.5" -> "8.2.2", 
-        "babel-plugin-named-asset-import": "1.0.0-next.103" -> "1.0.0-next.154", 
-        "babel-preset-react-app": "9.0.0" -> "9.1.2", 
-        "bfj": "6.1.1" -> "6.1.2",
-        "case-sensitive-paths-webpack-plugin": "2.2.0" ->  "2.4.0", 
-        "chalk": "4.1.0" -> "4.1.1", 
-        "dotenv": "8.0.0" -> "8.5.1", 
-        "eslint-plugin-flowtype": "3.8.1" -> "3.13.0", 
-        "eslint-plugin-import": "2.17.2" -> "2.22.1",
-        "eslint-plugin-jsx-a11y": "6.2.1" -> "6.4.1",
-        "eslint-plugin-react": "7.13.0" -> "7.23.2", 
-        "eslint-plugin-react-hooks": "1.6.0" -> "1.7.0", 
-        "html-webpack-plugin": "4.0.0-alpha.2" -> "4.5.2", 
-        "jest": "24.8.0" - "24.9.0",
-        "jest-pnp-resolver": "1.2.1" -> "1.2.2", 
-        "jest-resolve": "24.8.0" -> "24.9.0", 
-        "mini-css-extract-plugin": "0.6.0" -> "0.8.0", 
-        "node-sass": "^4.13.1" ->  "^4.14.1", 
-        "optimize-css-assets-webpack-plugin": "5.0.1" - "5.0.4", 
-        "pnp-webpack-plugin": "1.4.3" -> "1.6.4", 
-        "postcss-flexbugs-fixes": "4.1.0" -> "4.2.1", 
-        "postcss-preset-env": "6.6.0" ->  "6.7.0",
-        "postcss-safe-parser": "4.0.1" -> "4.0.2" ,
-        "resolve": "1.10.1" -> "1.20.0",
-        "sass-loader": "7.1.0" -> "7.3.1",
-        "style-loader": "0.23.0" -> "0.23.1", 
-        "terser-webpack-plugin": "1.2.3" -> "1.4.4", 
-        "url-loader": "4.1.0" -> "4.1.1", 
-        "webpack": "4.43.0" -> "4.44.0",
-        "webpack-dev-server": "3.11.0" -> "3.11.2",
-        "workbox-webpack-plugin": "5.1.3" ->  "5.1.4"
+#### [3.1.1](https://github.com/coreui/coreui-free-react-admin-template/compare/3.1.0...3.1.1)
 
+> 26 November 2020
 
-## [1.2.7]
+- chore: dependencies update [`5b70904`](https://github.com/coreui/coreui-free-react-admin-template/commit/5b70904d8f22f61a71def3306ea96ad640573c39)
+- chore: add changelog [`de605cc`](https://github.com/coreui/coreui-free-react-admin-template/commit/de605cc1aadec9fb066625c6bc7b656590efc7bb)
+- chore: limit changelog to version 3 [`6ac9a1d`](https://github.com/coreui/coreui-free-react-admin-template/commit/6ac9a1d094d4d293ddacb3f3562216a98be8e129)
+- chore: add migration docs [`b661344`](https://github.com/coreui/coreui-free-react-admin-template/commit/b661344485a38404b8c2b1326e3a4258009b071c)
+- chore: changelog update [`f9f1927`](https://github.com/coreui/coreui-free-react-admin-template/commit/f9f19274f046cf5f11f68d6c7eb7ae04c553f219)
+- chore: .gitignore cleanup [`ba21e00`](https://github.com/coreui/coreui-free-react-admin-template/commit/ba21e001944322fb48e43264719b94368c589732)
+- chore: 3.1.1 release [`081b957`](https://github.com/coreui/coreui-free-react-admin-template/commit/081b957291a8020e3d2e3b42c1f0a1455a49c524)
 
-- Updated sidebar and navbar icons
-- Updated sidebar and navbar design 
+#### [3.1.0](https://github.com/coreui/coreui-free-react-admin-template/compare/3.0.0...3.1.0)
 
-## [1.2.6]
+> 12 August 2020
 
-- Fixed header's notification bar 
-- Fixed charts legend labels
+- docs(readme): CoreUI react theme setup with laravel tutorial link add into readme [`#226`](https://github.com/coreui/coreui-free-react-admin-template/pull/226)
+- fix: fix template testing [`68ce41d`](https://github.com/coreui/coreui-free-react-admin-template/commit/68ce41db6831d6995121766a5771dc9d667cc61a)
+- chore: 3.1.0 release - update dependencies [`92f55b8`](https://github.com/coreui/coreui-free-react-admin-template/commit/92f55b8cdfd748a9e72649d5da62b93015a1c8e6)
+- refactor: add reusable folder with DocsLink component [`eef84db`](https://github.com/coreui/coreui-free-react-admin-template/commit/eef84dbbd770c7253080a6f69443c40e4fecefd2)
+- feat: add CSwitch examples to forms [`b31e452`](https://github.com/coreui/coreui-free-react-admin-template/commit/b31e452fd0ea736763d3032d7204cd478863b505)
+- refactor: add CIcon example in _nav.js [`be5d1f0`](https://github.com/coreui/coreui-free-react-admin-template/commit/be5d1f0618f981f18c45be87afb56c4409bd3389)
 
-## [1.2.5]
+### [3.0.0](https://github.com/coreui/coreui-free-react-admin-template/compare/v2.6.1...3.0.0)
 
-- Fix layout issues
-- Correct elements properties
+> 17 June 2020
 
-## [1.2.4]
-
-- Added link to flatlogic on login and register pages
-
-## [1.2.3]
-
-- Fix layout issues
-- Change elements paddings and colors
-
-## [1.2.2]
-
-- Update dependencies, fixed security vulnerability
-
-## [1.2.1]
-
-- Update dependencies
-- Add animation to alert in header
-- Fix color in notifications
-- Fix animated classes
-- Fix color in chart dropdown menu
-
-## [1.2.0]
-
-Added Breadcrumbs component
-
-## [1.1.1]
-
-Fixed tables color
-
-## [1.1.0]
-
-Updated demo in the docs folder
-
-## [1.0.0]
-
-Initial release
+- feat: update template to version 3 [`cc79542`](https://github.com/coreui/coreui-free-react-admin-template/commit/cc795425bbf610873fcdf6938b5fb0aba49a4d97)
+- refactor: update folder casing to kebab-case [`75138b0`](https://github.com/coreui/coreui-free-react-admin-template/commit/75138b0d0340cc21d58bcc2f800f042f86e54346)
+- refactor: temporarily delete views folder [`cb4433a`](https://github.com/coreui/coreui-free-react-admin-template/commit/cb4433a3e33cb943bc1f47199110ead28fab517b)
+- docs: README update [`188e0b1`](https://github.com/coreui/coreui-free-react-admin-template/commit/188e0b1c09fd7d47dc87d0410303ae43e8ee79de)
+- chore: clear packages [`e236aad`](https://github.com/coreui/coreui-free-react-admin-template/commit/e236aad4ab0129e3611adfc2127670da64696e54)
+- fix: delete obsolete files, fix logos [`f479a5d`](https://github.com/coreui/coreui-free-react-admin-template/commit/f479a5dc72bb5bb75b95a4b904d1c350be8fe7bc)
+- chore: 3.0.0-beta.1 release [`d940f92`](https://github.com/coreui/coreui-free-react-admin-template/commit/d940f92ef741d7eab021af4fbcf385823c80421a)
+- fix: fix accordion, delete aside [`0e6506e`](https://github.com/coreui/coreui-free-react-admin-template/commit/0e6506ea3303ca30bc21ba2bcf3717a3f009dc8c)
+- refactor: optimize icon bundle size, update icons [`9fed168`](https://github.com/coreui/coreui-free-react-admin-template/commit/9fed168a534b88cb27371d6364b922418a5a13b4)
+- refacotor: template updates [`1df8c15`](https://github.com/coreui/coreui-free-react-admin-template/commit/1df8c15030d45779f6adc5031153eaff09701d97)
+- refactor: turn logos extensions from svg to js [`8c0deee`](https://github.com/coreui/coreui-free-react-admin-template/commit/8c0deeed169267155323a5b6bdbbdfaf8a856a41)
+- refactor: rename containers from 'Default' to 'The', small fixes [`bfc79da`](https://github.com/coreui/coreui-free-react-admin-template/commit/bfc79da4039dd534ee49b4526978f7b949cea90b)
+- refactor: update icons to version 2, rtl fixes [`8e4fbc2`](https://github.com/coreui/coreui-free-react-admin-template/commit/8e4fbc2aa8786b00a004282260c52986e1cd2430)
+- fix: delete unneded icons, aside, fix readme.md [`1ee0561`](https://github.com/coreui/coreui-free-react-admin-template/commit/1ee05619ba15d050b73df21c8d1347e8329942d5)
+- chore: 3.0.0 version release - update dependencies [`fd5236d`](https://github.com/coreui/coreui-free-react-admin-template/commit/fd5236d47340b336bf641041cbf6d48ec8b1081a)
+- feat: add query parameters to Users view [`98f8b67`](https://github.com/coreui/coreui-free-react-admin-template/commit/98f8b677edb96f9175b7d4c20370c3d6744543bd)
+- docs: add license [`db85786`](https://github.com/coreui/coreui-free-react-admin-template/commit/db85786be465fdb7a84b7337dbe876afc5e957bc)
+- chore: update react.md [`5aa0cc3`](https://github.com/coreui/coreui-free-react-admin-template/commit/5aa0cc3ce15c841032cd75392418cfeb2e4d094f)
+- docs: README cleanup [`82a4351`](https://github.com/coreui/coreui-free-react-admin-template/commit/82a4351daa6c8d452e19c7141dbadecc3f721c1b)
+- fix: fix Icons views [`1777a09`](https://github.com/coreui/coreui-free-react-admin-template/commit/1777a092f6444497120e85c8852a1e4779640e71)
